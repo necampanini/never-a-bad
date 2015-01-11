@@ -4,7 +4,7 @@ Never-a-bad is a brazen two-column [Jekyll](http://jekyllrb.com) blog that pairs
 
 ...I can't find where to change the text in the sidebar...
 ![Hyde screenshot](https://f.cloud.github.com/assets/98681/1831228/42af6c6a-7384-11e3-98fb-e0b923ee0468.png)*/
-
+..I change another thing after setting the origins remote url?
 
 /*## Contents
 
