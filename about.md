@@ -9,7 +9,7 @@ title: About
 
 ## Setup
 
-Some fun facts about the setup of this project include:
+About this project...
 
 * Built with [Jekyll](http://jekyllrb.com) and [Hyde](https://github.com/mdo/hyde)
 * Developed on GitHub and with much [beer](http://sixpoint.com/)
