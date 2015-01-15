@@ -13,6 +13,6 @@ About this project...
 
 * Why Travis, why?
 * Built with [Jekyll](http://jekyllrb.com) and [Hyde](https://github.com/mdo/hyde)
-* Developed on GitHub and with much [beer](http://sixpoint.com/)
+* Developed on GitHub and with much beer.
 * Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor...
 * Sometimes coded with [Atom](https://atom.io/) -- RJ would not approve!
