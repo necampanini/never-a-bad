@@ -1,0 +1,31 @@
+language: ruby
+rvm:
+  - 2.1.4
+
+sudo: false
+cache: bundler
+
+install: bundle install
+script:
+  - bundle exec jekyll build
+  - bundle exec htmlproof ./_site
+
+deploy:
+  - provider: s3
+    access_key_id: AKIAI3E322JYHJJTSDZA
+    secret_access_key:
+      secure: DpQkakEA0afoyNEyD+MCkT983Ep7L0qRvrf6x7fCcoRJ90XBV/LkeJtX7YO3HedykJsqyc3N8kZeuTBrFWt6W6H45dmsoYB57UlI1MbyJxSVuC9ZBqW8flstA8P6KQbezlpPlEfYJ77rdAM69j3RXzsWncKjualHBryKkMxfnO0=
+    bucket: staging.never-a-bad.com
+    local-dir: _site
+    skip_cleanup: true
+    on:
+      branch: develop
+  - provider: s3
+    access_key_id: AKIAI3E322JYHJJTSDZA
+    secret_access_key:
+      secure: DpQkakEA0afoyNEyD+MCkT983Ep7L0qRvrf6x7fCcoRJ90XBV/LkeJtX7YO3HedykJsqyc3N8kZeuTBrFWt6W6H45dmsoYB57UlI1MbyJxSVuC9ZBqW8flstA8P6KQbezlpPlEfYJ77rdAM69j3RXzsWncKjualHBryKkMxfnO0=
+    bucket: www.never-a-bad.com
+    local-dir: _site
+    skip_cleanup: true
+    on:
+      branch: master
