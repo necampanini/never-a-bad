@@ -11,6 +11,7 @@ title: About
 
 About this project...
 
+* Why Travis, why?
 * Built with [Jekyll](http://jekyllrb.com) and [Hyde](https://github.com/mdo/hyde)
 * Developed on GitHub and with much [beer](http://sixpoint.com/)
 * Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor...
