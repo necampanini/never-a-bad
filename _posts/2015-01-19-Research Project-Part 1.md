@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Research Project - Aggregation vs Composition: Part 1 - The Beginninging
+title: Research Project - Aggregation vs Composition&#58; Part 1 - The Beginninging
 ---
 
 I've been asked to take some time and do some research on a particular topic. And I'm excited.
@@ -14,9 +14,9 @@ So, here's the "official" topic:
 Here's how I plan to tackle the research:
 
   - Gather multiple definitions of both aggregation and composition
-  - review and understand the history of each (obviously easier said than done)
-  - find what languages started to sway convention(part of history review)
-  - hope Fowler has something to say on the matter...
+  - Review and understand the history of each (obviously easier said than done)
+  - Find what languages started to sway convention(part of history review)
+  - Hope Fowler has something to say on the matter...
 
 That's what I have as a starting point at least, and it's enough to get started on a few days reading, considering I have multiple projects/learnings on my plate. Of course I'll be revising these topics and will eventually create an outline of how I want to present the information.
 
