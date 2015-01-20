@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Aggregation vs Composition&#58; Part 1 - The Beginninging
+title: Composition Vs Aggregation - Part 1&#58; The Beginninging
 ---
 
 I've been asked to take some time and do some research on a particular topic. And I'm excited.
