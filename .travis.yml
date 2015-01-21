@@ -1,12 +1,15 @@
 language: ruby
 rvm:
 - 2.1.4
+
 sudo: false
 cache: bundler
 install: bundle install
+
 script:
 - bundle exec jekyll build
 - bundle exec htmlproof _site
+
 deploy:
 - provider: s3
   access_key_id: AKIAJTIRCVHLYE6JUEIQ
