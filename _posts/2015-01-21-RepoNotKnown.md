@@ -21,6 +21,7 @@ I'll need to revisit and document the whole process so I can relearn what was do
 So, on to the issue I was having.
 
 > $ travis encrypt --add xxxxxxxxxxxxxxxxxxxxxxxxx
+
 > $ repository not known to https://api.travis-ci.com/:repoOwner/repoName
 
 I was trying to encrypt an AWS key to allow travis-ci to deploy on its own. This was working fine some time ago...weird.
@@ -34,15 +35,16 @@ So what I tried:
 
 I shot off an email to travis-ci support and shelved my curiousity for a short while. What I got in response made me question my overall intelligence:
 
-* You may have to explicitly hit the api.travis-ci.org endpoint, either via `--org` or `-e https://api.travis-ci.org'
+> You may have to explicitly hit the api.travis-ci.org endpoint, either via `--org` or `-e https://api.travis-ci.org'
 
 travis-ci.com is for private repos and costs monthly.
+
 travis-ci.org is for open source/public repos and is free.
 
-The error I got back told me very blatantly it was trying to find my repo in the commercial version. Several times. Maybe that's why there wasn't very many relevant google results.
+The error I got back told me very blatantly it was trying to find my repo in the commercial version. Several times. Maybe that's why there wasn't very many relevant google results. Too obvious a fix...
 
-Besides the (now) very obvious mixup, was how this happened in the first place. The .git/config file had nothing about which site was referenced, and at one point, the site was being built and deployed fine. Then, after an absent-minded git push or two, I noticed the .travis.yml file was simply missing...
+My ignorance aside, I was still curious about how this happened in the first place. The .git/config file had nothing about which site was referenced, and at one point, the site was being built and deployed fine. Then, after an absent-minded git push or two, I noticed the .travis.yml file was simply missing...
 
-Computer ghosts. Or user ignorance.
+Travis...[you son of a bitch!](http://www.youtube.com/watch?v=txuWGoZF3ew&t=0m6s)
 
 Hope this helps someone and I'm not sharing my embarrassing amateurism for nothing.
